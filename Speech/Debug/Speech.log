@@ -1,0 +1,45 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Calc.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are speech\src\main\CNN\Calc.cpp, speech\src\main\RNN\Calc.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Layer.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are speech\src\main\CNN\Layer\Layer.cpp, speech\src\main\RNN\Layer\Layer.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Node.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are speech\src\main\CNN\Layer\Node\Node.cpp, speech\src\main\RNN\Layer\Node\Node.cpp.
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(944,5): warning MSB8027: Two or more files with the name of Network.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are speech\src\main\CNN\Network.cpp, speech\src\main\RNN\Network.cpp.
+  Calc.cpp
+c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.cpp(12): error C3867: 'Calc::calcErr': non-standard syntax; use '&' to create a pointer to member
+c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.cpp(12): error C2296: '<<': illegal, left operand has type 'void (__thiscall Calc::* )(void)'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.cpp(12): error C2059: syntax error: ')'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.cpp(17): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.cpp(17): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Layer.cpp
+  Node.cpp
+  Network.cpp
+  main.cpp
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\layer\node\node.h(7): error C2011: 'Node': 'struct' type redefinition
+  c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\layer\node\node.h(7): note: see declaration of 'Node'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\layer\layer.h(6): error C2011: 'Layer': 'struct' type redefinition
+  c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\layer\layer.h(4): note: see declaration of 'Layer'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\network.h(7): error C2011: 'Network': 'struct' type redefinition
+  c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\network.h(7): note: see declaration of 'Network'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.h(8): error C2011: 'Calc': 'struct' type redefinition
+  c:\users\jchic\source\repos\speech\speech\speech\src\main\cnn\calc.h(6): note: see declaration of 'Calc'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\main.cpp(6): warning C4326: return type of 'main' should be 'int' instead of 'void'
+  Calc.cpp
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(4): error C2512: 'word2Vec': no appropriate default constructor available
+  c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.h(8): note: see declaration of 'word2Vec'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(15): error C3867: 'Calc::calcErr': non-standard syntax; use '&' to create a pointer to member
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(15): error C2296: '<<': illegal, left operand has type 'void (__thiscall Calc::* )(void)'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(15): error C2059: syntax error: ')'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(28): error C2676: binary '[': 'word2Vec' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(30): error C2676: binary '[': 'word2Vec' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(32): error C2676: binary '[': 'word2Vec' does not define this operator or a conversion to a type acceptable to the predefined operator
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(62): error C2144: syntax error: 'void' should be preceded by ';'
+c:\users\jchic\source\repos\speech\speech\speech\src\main\rnn\calc.cpp(62): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  Layer.cpp
+  Node.cpp
+  Network.cpp
+  WeightInit.cpp
+  Word2Vec.cpp
+c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.cpp(20): warning C4244: '=': conversion from 'std::streamoff' to 'unsigned int', possible loss of data
+c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.cpp(22): error C2276: '!': illegal operation on bound member function expression
+c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.cpp(61): warning C4244: '=': conversion from 'double' to 'char', possible loss of data
+c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.cpp(62): warning C4244: 'argument': conversion from 'double' to 'const char', possible loss of data
+c:\users\jchic\source\repos\speech\speech\speech\src\main\word2vec\word2vec.cpp(81): warning C4244: '=': conversion from 'double' to 'std::seed_seq::result_type', possible loss of data
+  Generating Code...
